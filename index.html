@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouCode Events</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header class="header-section" style="grid-area: header;">
+            <a href="index.html" class="logo">YouCode <span>Events</span></a>
+            <nav class="navbar">
+                <ul class="nav-ul" id="nav-list">
+                    <li><a href="index.html" class="nav-li">Acceuil</a></li>
+                    <li><a href="evenements.html" class="nav-li">Événements</a></li>
+                    <li><a href="intervenants.html" class="nav-li">Intervenants</a></li>
+                    <li><a href="inscription.html" class="header-btn">S'inscrire</a></li>
+                </ul>
+            </nav>
+            <button class="hamburger-btn" id="hamburger-dropdown">
+                <p class="hamburger-icon">&#9776;</p>
+            </button>
+        </header>
+        <section class="box section-1">
+            <div class="evenement">
+                <p>Saison 2026-2027</p>
+                <h1>Tous les événements YouCode, au même endroit</h1>
+                <p>Ateliers, conférences, hackathons et rencontres avec des professionnels : consultez le programme et inscrivez-vous en quelques clics.</p>
+                <button>Voir les événements</button>
+                <button>S'inscrire</button>
+                <div class="placeholder-calender"><img src="assets/images/Screenshot from 2026-10-16 07-56-56.png" alt="calender-image"></div>
+            </div>
+        </section>
+        
+    </div>
+    <script>
+        const navBtn = document.getElementById('hamburger-dropdown');
+        const navList = document.getElementById('nav-list');
+        navBtn.addEventListener('click', function() {
+            navList.classList.toggle('display');
+        });
+    </script>
+</body>
+</html>
