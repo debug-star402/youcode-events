@@ -1,49 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>YouCode Events</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/responsive.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <div class="container">
-        <header class="header-section" style="grid-area: header;">
-            <a href="index.html" class="logo">YouCode <span>Events</span></a>
-            <nav class="navbar">
-                <ul class="nav-ul" id="nav-list">
-                    <li><a href="index.html" class="nav-li">Acceuil</a></li>
-                    <li><a href="evenements.html" class="nav-li">Événements</a></li>
-                    <li><a href="intervenants.html" class="nav-li">Intervenants</a></li>
-                    <li><a href="inscription.html" class="header-btn">S'inscrire</a></li>
-                </ul>
-            </nav>
-            <button class="hamburger-btn" id="hamburger-dropdown">
-                <p class="hamburger-icon">&#9776;</p>
-            </button>
-        </header>
-        <section class="box section-1">
-            <div class="evenement">
-                <p>Saison 2026-2027</p>
-                <h1>Tous les événements YouCode, au même endroit</h1>
-                <p>Ateliers, conférences, hackathons et rencontres avec des professionnels : consultez le programme et inscrivez-vous en quelques clics.</p>
-                <button>Voir les événements</button>
-                <button>S'inscrire</button>
-                <div class="placeholder-calender"><img src="assets/images/Screenshot from 2026-10-16 07-56-56.png" alt="calender-image"></div>
+    <section class="section3">
+        <div>
+            <h3>+40</h3>
+            <p>événements par an</p>
+        </div>
+        <div>
+            <h3>25</h3>
+            <p>intervenants</p>
+        </div>
+        <div>
+            <h3>1200</h3>
+            <p>participants</p>
+        </div>
+        <div>
+            <h3>12</h3>
+            <p>partenaires</p>
+        </div>
+
+    </section>
+    <section class="section-4">
+        <h2>Explorer par catégorie</h2>
+        <div>
+            <div class="icon"><img src="images/wrench.svg"></div>
+            <h4>Ateliers</h4>
+            <p>14 événements</p>
+        </div>
+        <div>
+            <div class="icon"><img src="images/Group.svg"></div>
+            <h4>Conférences</h4>
+            <p>12 événements</p>
+        </div>
+        <div>
+            <div class="icon"><img src="images/Group (1).svg"></div>
+            <h4>Hackathons</h4>
+            <p>4 événements</p>
+        </div>
+        <div>
+            <div class="icon"><img src="images/Icône.svg"></div>
+            <h4>Rencontres</h4>
+            <p>10 événements</p>
+        </div>
+    </section>
+
+
+    <footer>
+        <div class="section-5">
+            <div class="div1">
+                <h2>YouCode Events</h2>
+                <p>Les ateliers, conférences, hackathons et rencontres de YouCode, réunis au même endroit.</p>
             </div>
-        </section>
-        
-    </div>
-    <script>
-        const navBtn = document.getElementById('hamburger-dropdown');
-        const navList = document.getElementById('nav-list');
-        navBtn.addEventListener('click', function() {
-            navList.classList.toggle('display');
-        });
-    </script>
+            <div class="div2">
+                <p>Navigation</p>
+                <a href="Accueil">Accueil</a><a href="Événements">Événements</a><a href="Événements">Événements</a><a
+                    href="Intervenants et partenaires">Intervenants et partenaires</a><a
+                    href="Inscription">Inscription</a>
+            </div>
+            <div class="div3">
+                <h4>Contact</h4>
+                <p>contact@youcode-events.example</p>
+                <p>Youssoufia · Safi · Nador</p>
+            </div>
+            <div class="div4">
+                <p>_____________________________</p>
+            </div>
+            <div class="div5">
+                <p>© 2026 YouCode Events — site fictif réalisé en formation.</p>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>

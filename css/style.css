@@ -1,135 +1,97 @@
 * {
-    margin-left: 0;
-    margin-right: 0;
-    font-family: "Inter", sans-serif;
+    padding: 0;
+    margin: 0;
     box-sizing: border-box;
 }
-.logo {
-    font-size: 1.2rem;
-    text-decoration: none;
-    color: black;
-    font-weight: bold;
-}
-.logo span {
-    color: #C2410C;
-}
-.hamburger-icon {
-    font-size: 2rem;
-    font-weight: bold;
-    margin: 0;
-}
-.hamburger-btn {
-    background-color: transparent;
-    border-style: none;
-}
 
-.header-section {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: relative;
-    width: 100vw;
-    padding: 1rem;
-}
-.nav-li, .header-btn, .nav-ul {
-    display: block;
-    text-decoration: none;
-    list-style: none;
-    line-height: 40px;
-    text-align: center;
-    color: black;
-}
-
-.nav-ul {
-    display: none;
-    list-style: none;
-}
-
-.nav-ul.display {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    position: absolute;
-    background-color: rgb(255, 255, 255);
-    width: 100%;
-    top: 100%;
-    left: 0;
-    margin: 0;
-    padding: 0;
-    z-index: 100;
-}
-.box {
-    padding: 1rem;
-}
-.section-1 {
-    background-color: #FFEDD5;
-    width: 100%;
-    height: 100%;
-}
-.evenement {
-    display: flex;
-    flex-direction: column;
-}
-.evenement p:nth-child(1) {
-    display: inline-block;
-    background-color: #CCFBF1;
-    border-radius: 9999px;
-    font-weight: bold;
-    width: fit-content;
-    padding: .3rem;
-}
-.evenement button:nth-child(4){
-    background-color: #C2410C;
+.section3 {
+    background: #C2410C;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     color: white;
-    border-radius: 8px;
-    border-style: none;
-    height: 2rem;
-    font-weight: bold;
-    font-size: 0.9rem;
-}
-.evenement button:nth-child(5) {
-    background-color: #FFFFFF;
-    color: #C2410C;
-    border-radius: 8px;
-    border-style: solid;
-    border-color: #C2410C;
-    height: 2rem;
-    font-weight: bold;
-    font-size: 0.9rem;
-    margin-top: 1rem;
+    gap: 25px;
+    padding: 1rem;
+    width: 100%;
 }
 
-.placeholder-calender {
-    background-color: white;
-    width: 100%;
-    margin-top: 1rem;
+.icon {
+    background-color: #FFEDD5;
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 8px;
+    height: 35px;
+    width: 35px;
+    border-radius: 50px;
 }
 
-.section-2 h4{
-    color: #C2410C;
+.section-4 div {
+    gap: 40px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 15px;
+    border: grey solid 0.1px;
+
 }
-.card-container {
-    border: 1px solid #d1d5db;
-    border-radius: 8px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    gap: 10rem;
+
+.section-4 h2 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
-.card-container div:nth-child(2) {
-    padding: .4rem;
+
+footer {
+    color: white;
+    background-color: #1C1917;
+    margin: 20px;
+    padding: 20px;
 }
-.card-container div:nth-child(2) p:nth-child(1) {
-    display: inline-block;
-    background-color: #FFEDD5;
-    color: #9A3412;
-    border-radius: 9999px;
-    font-weight: bold;
-    width: fit-content;
-    padding: .6rem;
+
+.section-5 div {
+    margin-top: 30px;
+
 }
-.card-container div:nth-child(2) p:nth-child(5){
-    color: #C2410C;
+
+.div1 {
+    gap: 20px;
+}
+
+.div1 p {
+    font-size: 15px;
+    padding: 5px;
+}
+
+.div2 {
+    display: flex;
+    flex-direction: column;
+    font-size: 17px;
+
+}
+
+.div2 a {
+    color: white;
+    text-decoration: none;
+    gap: 20px;
+    font-size: 12px;
+    padding: 5px;
+}
+
+.div3 h4 {
+    font-size: 20px;
+    padding: 5px;
+
+}
+
+.div3 p {
+    padding: 5px;
+}
+
+.div4 p {
+    color: #57534E;
+}
+
+.div5 {
+    padding: 5px;
 }
