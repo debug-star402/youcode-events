@@ -64,6 +64,23 @@
         grid-template-columns: 1fr 1fr;
         gap: 1rem;
     }
+    .section3 {
+        grid-template-columns: repeat(2, 1fr);
+        padding: 60px 40px;
+    }
+
+    .section-4 {
+        grid-template-columns: repeat(2, 1fr);
+        padding: 60px 40px;
+    }
+
+    footer {
+        padding: 60px 40px;
+    }
+
+    .section-5 {
+        grid-template-columns: repeat(3, 1fr);
+    }
 }
 
 @media (min-width: 1024px) {
@@ -71,5 +88,19 @@
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         gap: 1rem;
+    }
+    .section3 {
+        grid-template-columns: repeat(4, 1fr);
+        padding: 80px 100px;
+    }
+
+    .section-4 {
+        grid-template-columns: repeat(4, 1fr);
+        padding: 80px 100px;
+        gap: 30px;
+    }
+
+    footer {
+        padding: 60px 100px;
     }
 }
